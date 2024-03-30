@@ -8,8 +8,8 @@ import "/Users/rishishah/ChristmasProject/src/react_styles.css"
 const BurgerMenu = ({ onBurgerClick }) => (
     <img src={burger} width={25} height={25} alt="Burger Menu" onClick={onBurgerClick} right />
   );
+  
 
- 
   const Sidebar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
   
